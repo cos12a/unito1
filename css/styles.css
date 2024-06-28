@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+/* #randomNumber {
+    font-size: 24px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    display: inline-block;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+#gaugeChart {
+    width: 800px;
+    height: 600px; /* gaugeChart的高度可以有所不同，根据图形样式的需要调整 */
+    margin: 0 auto;
+}
+
+#timeChart {
+    width: 1000px;
+    height: 400px; /* 调整时间图表的高度 */
+    margin: 0 auto;
+}

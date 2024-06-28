@@ -1,12 +1,43 @@
-{
-"url_hub":"https://cos12a.github.io/unito1/download/unito_hub_idf.bin",
-"hub_crc":84,
-"hub_SW":"OFF",
-"sha256":"F5781C6206EFEF5D37D0FD512A607CBFE38342FC624CE4CDBCC42D5195F15BAA",
-"ver":"1.31",
-"url_ws":"https://cos12a.github.io/unito1/download/UNITO_Infinity_NO_BL_HW30_20230804_1.hex",
-"ws_crc":157,
-"ws_SW":"OFF",
-"sha256":"F5781C6206EFEF5D37D0FD512A607CBFE38342FC6 24CE4CDBCC42D5195F15BAA",
-"ver":"2.21"
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>WebSocket Example</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- <link rel="stylesheet" href="css/styles.css"> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script> -->
+    <script type="text/javascript" src="js/echarts.min.js"></script>
+    <script type="text/javascript" src="js/smoothie.js "></script>
+  </head>
+  <body>
+    <!-- <script src="js/echarts.min.js"></script> -->
+    <h1>UNITO智能家居水系统测试</h1>
+    <!-- <div id="randomNumber"></div> -->
+    <div id="gaugeChart"></div>
+    <div id="timeChart"></div>
+    <canvas id="mycanvas" width="800" height="200"></canvas>
+    <p>
+    <a href="download/unito_hub_idf.bin" download="unito_hub_idf.bin"
+      >unito_hub_idf</a
+    >
+    <a
+      href="download/unito_hub_idf20240318.bin"
+      download="unito_hub_idf20240318.bin"
+      >unito_hub_idf20240318</a
+    >
+    <a
+      href="download/UNITO_Infinity_NO_BL_HW30_20230804_1.hex"
+      download="UNITO_Infinity.hex"
+      >UNITO_InfinityFW</a
+    >
+    <a href="download/Orbit_CK.hex" download="Orbit_CK.hex">UNITO_OrbitFW</a>
+    <a href="download/unito_esp32.bin" download="unito_esp32.bin"
+      >unito_esp32</a
+    >
+    </p>
+    <script type="text/javascript" src="js/script.js"></script>
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
