@@ -8,10 +8,11 @@ const urlsToCache = [
     '/',
     '/index.html',
     '/favicon.ico',
+	'/manifest.json',
     '/icon.png',
+	'/service-worker.js',
     '/css/styles.css',
-    '/js/script.js',
-    '/js/service-worker.js',
+    '/js/script.js',    
     '/js/smoothie.js',
     '/js/echarts.min.js'
     // '/images/logo.png'
