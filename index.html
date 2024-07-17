@@ -3,44 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-	<link rel="manifest" href="manifest.json">
-	<script type="text/javascript" src="service-worker.js"></script>
-    <title>WebSocket Example</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <!-- <link rel="stylesheet" href="css/styles.css"> -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script> -->
-	<!-- <script type="text/javascript" src="service-worker.js"></script> -->
-    <script type="text/javascript" src="js/echarts.min.js"></script>
-    <script type="text/javascript" src="js/smoothie.js"></script>
+    <title>Web Serial Example</title>
   </head>
   <body>
-    <!-- <script src="js/echarts.min.js"></script> -->
-    <h1>UNITO智能家居水系统测试</h1>
-    <!-- <div id="randomNumber"></div> -->
-    <div id="gaugeChart"></div>
-    <div id="timeChart"></div>
-    <canvas id="mycanvas" width="800" height="200"></canvas>
-    <p>
-    <a href="download/unito_hub_idf.bin" download="unito_hub_idf.bin"
-      >unito_hub_idf</a
-    >
-    <a
-      href="download/unito_hub_idf20240318.bin"
-      download="unito_hub_idf20240318.bin"
-      >unito_hub_idf20240318</a
-    >
-    <a
-      href="download/UNITO_Infinity_NO_BL_HW30_20230804_1.hex"
-      download="UNITO_Infinity.hex"
-      >UNITO_InfinityFW</a
-    >
-    <a href="download/Orbit_CK.hex" download="Orbit_CK.hex">UNITO_OrbitFW</a>
-    <a href="download/unito_esp32.bin" download="unito_esp32.bin"
-      >unito_esp32</a
-    >
-    </p>
-    <script type="text/javascript" src="js/script.js"></script>
-    <!-- <script src="script.js"></script> -->
+    <h1>串口终端测试!!!</h1>
+    <br /><br />
+    <textarea id="receivedText" rows="10" cols="50"></textarea>
+    <br /><br />
+    <textarea id="sendText" rows="3" cols="50">Hello from Web Serial!</textarea>
+    <br /><br />
+    <button id="connectButton">连接串口</button>
+    <button id="disconnectButton" disabled>退出串口</button>
+    <br /><br />
+    <button id="sendButton">发送数据</button>
+
+    <script src="script.js"></script>
   </body>
 </html>
